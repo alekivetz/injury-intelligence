@@ -15,7 +15,7 @@ Python · pandas · scikit-learn · HuggingFace Transformers · sentence-transfo
 
 ## Live Demo
 
-View the live demo at [https://osha-injury-intelligence.streamlit.app/](https://osha-injury-intelligence.streamlit.app/).
+View the live demo at [https://osha-injury-intelligence.streamlit.app/](https://osha-injury-intelligence.streamlit.app/)
 
 ### Screenshots
 
@@ -34,7 +34,7 @@ injury-intelligence/
 │   ├── 1_eda.ipynb             # Data exploration and preprocessing
 │   ├── 2_classification.ipynb  # TF-IDF + DistilBERT classification
 │   └── 3_rag.ipynb             # Embeddings, FAISS index, RAG pipeline
-├── data/                       # Raw and processed data (gitignored)
+├── data/                       # Raw and processed data (raw gitignored)
 ├── mlruns/                     # MLflow experiment tracking (gitignored)
 └── README.md
 ```
