@@ -13,6 +13,15 @@ An NLP pipeline over OSHA Severe Injury Reports (2015–2017), combining text cl
 
 Python · pandas · scikit-learn · HuggingFace Transformers · sentence-transformers · FAISS · MLflow · Anthropic API · Streamlit
 
+## Live Demo
+
+View the live demo at [https://osha-injury-intelligence.streamlit.app/](https://osha-injury-intelligence.streamlit.app/).
+
+### Screenshots
+
+![Query Interface](app/assets/screenshot_question.png)
+![Answer and Retrieved Records](app/assets/screenshot_answer.png)
+
 ## Project Structure
 
 ```
