@@ -53,8 +53,8 @@ def rag_query(query, results):
     QUESTION: 
     {query}"""
 
-    client = anthropic.Anthropic() 
-
+    client = anthropic.Anthropic(api_key=os.environ.get("ANTHROPIC_API_KEY"))
+    
     response = client.messages.create(
         model='claude-sonnet-4-5',
         max_tokens=512,
