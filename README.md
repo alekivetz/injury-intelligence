@@ -38,8 +38,7 @@ View the live demo at [https://osha-injury-intelligence.streamlit.app/](https://
 ```
 injury-intelligence/
 ├── app/
-│   ├── assets/
-│   │   └── safety_first.jpg
+│   ├── assets/             
 │   └── app.py                  # Streamlit RAG interface
 ├── notebooks/
 │   ├── 1_eda.ipynb             # Data exploration and preprocessing
