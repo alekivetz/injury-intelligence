@@ -54,7 +54,7 @@ def rag_query(query, results):
     {query}"""
 
     client = anthropic.Anthropic(api_key=os.environ.get("ANTHROPIC_API_KEY"))
-    
+
     response = client.messages.create(
         model='claude-sonnet-4-5',
         max_tokens=512,
@@ -89,7 +89,7 @@ with col2:
 
 st.divider()
 
-st.subheader('RAG Chatbot')
+st.subheader('Ask About Workplace Injuries')
 
 if 'question' not in st.session_state:
     st.session_state.question = ''
