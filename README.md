@@ -51,6 +51,16 @@ injury-intelligence/
 
 --- 
 
+## Notebooks
+
+**Note:** GitHub's notebook renderer may not display these notebooks correctly. View them on nbviewer:
+
+- [EDA](https://nbviewer.org/github/alekivetz/injury-intelligence/blob/main/notebooks/1_eda.ipynb)
+- [Classification](https://nbviewer.org/github/alekivetz/injury-intelligence/blob/main/notebooks/2_classification.ipynb)
+- [RAG Pipeline](https://nbviewer.org/github/alekivetz/injury-intelligence/blob/main/notebooks/3_rag.ipynb)
+
+---
+
 ## Data
 
 [OSHA Accident and Injury Data](https://www.kaggle.com/datasets/ruqaiyaship/osha-accident-and-injury-data-1517) via Kaggle. Contains 4,427 severe workplace injury records with free-text narrative descriptions.
